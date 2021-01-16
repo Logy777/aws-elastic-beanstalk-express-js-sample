@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "Sample Node.js (Express) app for AWS Elastic Beanstalk",
   "main": "app.js",
+  "devDependencies": {
+    "watchify": "~0.1.0",
+    "catw": "~0.0.1",
+    "tap": "~0.4.4"
+  },
   "scripts": {
     "start": "node app.js",
     "test": "tap test/*.js"
